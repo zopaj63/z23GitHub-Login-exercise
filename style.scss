@@ -1,0 +1,82 @@
+@import "./sass/variables";
+
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "Arial Light", "Helvetica Light", sans-serif;
+}
+
+h1{
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.logo{
+    display: block;
+    width: 80px;
+    margin: 30px auto;
+}
+
+.form-frame{
+    width: 340px;
+    margin: 30px auto;
+    background-color: $block-color;
+    border: 1px solid rgb(234, 236, 239);
+    border-radius: 6px;
+    padding: 24px;
+    color: $font-color;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.form-field{
+    margin-bottom: 28px;
+    position: relative;
+  }
+
+input{
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+label{
+    font-size: 14px;
+    margin-bottom: 7px;
+    display: inline-block;
+}
+
+.forgot{
+    position: absolute;
+    right: 0;
+    text-align: right;
+    font-size: 12px;
+}
+
+.btn{
+    background-color: $button-color;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    display: block;
+    border: none;
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.1) 0px 1px 0px 0px, rgba(255, 255, 255, 0.03) 0px 1px 0px 0px inset;
+    margin-top: 20px;
+    padding: 8px;
+}
